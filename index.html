@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="node_modules/systemjs/dist/system.js"></script>
+<script type="systemjs-importmap">
+{
+  "imports": {
+    "lodash": "./build/main.js"
+  }
+}
+</script>
+<!-- Alternatively:
+<script type="systemjs-importmap" src="path/to/map.json" crossorigin="anonymous"></script>
+-->
+<script type="systemjs-module" src="import:main"></script>
+</head>
+<body>
+    
+</body>
+</html>
